@@ -33,16 +33,6 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      {/* <ul className="signin-up">
-        <li className="sign-in" onClick={closeMobileMenu}>
-          <a href="#">SIGN-IN</a>
-        </li>
-        <li onClick={closeMobileMenu}>
-          <a href="" className="signup-btn">
-            SIGN-UP
-          </a>
-        </li>
-      </ul> */}
       <div className="mobile-menu" onClick={handleClick}>
         {click ? (
           <CloseMenu className="menu-icon" />
