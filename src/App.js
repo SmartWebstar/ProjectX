@@ -4,10 +4,13 @@ import Container from "./components/container/Container";
 import "./styles.css";
 
 export default function App() {
-	return (
-		<div className = "App" >
-        <Header />
-        <Container />
-    </div>
+    return ( <
+        div className = "App" >
+        <
+        Header / >
+        <
+        Container / >
+        <
+        /div>
     );
 }
